@@ -1,0 +1,14 @@
+Campaigns
+
+# Ignore all .miz files
+*.miz
+
+# But don't ignore specific .miz files
+!m1.miz
+!m2.miz
+!m3.miz
+!m4.miz
+!m5.miz
+!m6.miz
+!m7.miz
+!m8.miz
