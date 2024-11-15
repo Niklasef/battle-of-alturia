@@ -11,12 +11,17 @@
   <property name="mlt_image_format">yuv422</property>
   <property name="set.test_audio">0</property>
  </producer>
- <playlist id="playlist0"/>
- <playlist id="playlist1"/>
+ <playlist id="playlist0">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
  <tractor id="tractor0" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist0"/>
@@ -35,19 +40,18 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter2">
-   <property name="iec_scale">0</property>
-   <property name="mlt_service">audiolevel</property>
-   <property name="dbpeak">1</property>
-   <property name="disable">0</property>
-  </filter>
  </tractor>
- <playlist id="playlist2"/>
- <playlist id="playlist3"/>
+ <playlist id="playlist2">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
  <tractor id="tractor1" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist2"/>
@@ -66,18 +70,13 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter5">
-   <property name="iec_scale">0</property>
-   <property name="mlt_service">audiolevel</property>
-   <property name="dbpeak">1</property>
-   <property name="disable">0</property>
-  </filter>
  </tractor>
  <playlist id="playlist4"/>
  <playlist id="playlist5"/>
  <tractor id="tractor2" in="00:00:00.000">
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist4"/>
@@ -86,7 +85,7 @@
  <producer id="producer1" in="00:00:00.000" out="00:00:55.680">
   <property name="length">00:00:55.720</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/Users/nikla/Downloads/scene1.webp</property>
+  <property name="resource">scene1.webp</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.progressive">1</property>
@@ -98,17 +97,20 @@
   <property name="kdenlive:duration">00:00:05.000</property>
   <property name="xml">was here</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:id">3</property>
   <property name="kdenlive:control_uuid">{25f1b12c-f75b-41bb-99c1-0be396e66255}</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">646462</property>
-  <property name="kdenlive:file_hash">c1edb1013e6970c933ba7414e2643cf3</property>
-  <property name="kdenlive:monitorPosition">0</property>
+  <property name="kdenlive:monitorPosition">1</property>
   <property name="kdenlive:activeeffect">-1</property>
+  <property name="kdenlive:clipname">scene1.webp</property>
+  <property name="kdenlive:originalurl">scene1.webp</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:file_hash">c1edb1013e6970c933ba7414e2643cf3</property>
  </producer>
  <playlist id="playlist6">
   <entry in="00:00:00.000" out="00:00:20.040" producer="producer1">
-   <property name="kdenlive:id">5</property>
+   <property name="kdenlive:id">3</property>
    <filter id="filter6" out="00:00:01.720">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -122,6 +124,7 @@
  <tractor id="tractor3" in="00:00:00.000" out="00:00:20.040">
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist6"/>
@@ -135,7 +138,7 @@
   <property name="kdenlive:uuid">{646bfb96-8cd0-44d8-afda-f7b01420357e}</property>
   <property name="kdenlive:producer_type">17</property>
   <property name="kdenlive:control_uuid">{387697b4-468b-4ffa-8bd8-8d451f971963}</property>
-  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:id">4</property>
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">69d95e2d9dd01c9dbcfcb1ff705676ee</property>
   <property name="kdenlive:folderid">2</property>
@@ -144,7 +147,7 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{f4b59320-dbd3-41d7-9aa0-9e7efe11012d}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">0</property>
+  <property name="kdenlive:sequenceproperties.position">1</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
@@ -158,7 +161,6 @@
   <property name="kdenlive:sequenceproperties.guides">[
 ]
 </property>
-  <property name="kdenlive:monitorPosition">0</property>
   <track producer="producer0"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
@@ -220,8 +222,13 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
+  <filter id="filter2">
+   <property name="mlt_service">avfilter.fieldorder</property>
+   <property name="internal_added">237</property>
+   <property name="av.order">tff</property>
+  </filter>
  </tractor>
- <producer id="producer2" in="00:00:00.000" out="00:05:50.160">
+ <producer id="producer2" in="00:00:00.000" out="00:06:50.520">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -231,12 +238,17 @@
   <property name="mlt_image_format">rgba</property>
   <property name="set.test_audio">0</property>
  </producer>
- <playlist id="playlist8"/>
- <playlist id="playlist9"/>
+ <playlist id="playlist8">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist9">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
  <tractor id="tractor4" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist8"/>
@@ -255,19 +267,24 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter11">
+  <filter id="filter5">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <playlist id="playlist10"/>
- <playlist id="playlist11"/>
+ <playlist id="playlist10">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist11">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
  <tractor id="tractor5" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist10"/>
@@ -286,27 +303,17 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter14">
+  <filter id="filter11">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <playlist id="playlist12"/>
- <playlist id="playlist13"/>
- <tractor id="tractor6" in="00:00:00.000">
-  <property name="kdenlive:trackheight">110</property>
-  <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist12"/>
-  <track hide="audio" producer="playlist13"/>
- </tractor>
- <producer id="producer3" in="00:00:00.000" out="00:00:31.880">
-  <property name="length">00:00:31.920</property>
+ <producer id="producer3" in="00:00:00.000" out="00:01:00.360">
+  <property name="length">00:01:00.400</property>
   <property name="eof">pause</property>
-  <property name="resource">C:/Users/nikla/Downloads/scene2.webp</property>
+  <property name="resource">wso.webp</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.progressive">1</property>
@@ -319,17 +326,113 @@
   <property name="xml">was here</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:id">8</property>
+  <property name="kdenlive:control_uuid">{491d9ad0-621b-4f22-8b24-b9ca68f4ced4}</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">286534</property>
+  <property name="kdenlive:monitorPosition">1140</property>
+  <property name="kdenlive:clipname">wso.webp</property>
+  <property name="kdenlive:originalurl">wso.webp</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:file_hash">05b50cbd22848e89fea59a0ccef2d63e</property>
+ </producer>
+ <playlist id="playlist12">
+  <blank length="00:01:04.920"/>
+  <entry in="00:00:00.000" out="00:00:45.560" producer="producer3">
+   <property name="kdenlive:id">8</property>
+   <filter id="filter15" out="00:00:05.000">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:05.000=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter16">
+    <property name="background">colour:0</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="transition.rect">00:00:00.000=961 0 960 540</property>
+    <property name="transition.distort">0</property>
+    <property name="use_normalised">0</property>
+    <property name="producer.resource">0x00000000</property>
+    <property name="transition.repeat_off">1</property>
+    <property name="transition.mirror_off">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter17" in="00:00:40.320" out="00:00:45.560">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:05.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist13"/>
+ <tractor id="tractor6" in="00:00:00.000" out="00:01:50.480">
+  <property name="kdenlive:trackheight">110</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist12"/>
+  <track hide="audio" producer="playlist13"/>
+ </tractor>
+ <producer id="producer4" in="00:00:00.000" out="00:00:31.880">
+  <property name="length">00:00:31.920</property>
+  <property name="eof">pause</property>
+  <property name="resource">scene2.webp</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="format">1</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">6</property>
   <property name="kdenlive:control_uuid">{fbb46c80-f3a2-423e-a116-549b25b3d355}</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">412842</property>
-  <property name="kdenlive:file_hash">933bbb6864e5c51622f9a5c74050e419</property>
   <property name="kdenlive:monitorPosition">0</property>
+  <property name="kdenlive:clipname">scene2.webp</property>
+  <property name="kdenlive:originalurl">scene2.webp</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:file_hash">933bbb6864e5c51622f9a5c74050e419</property>
+ </producer>
+ <producer id="producer5" in="00:00:00.000" out="00:01:07.480">
+  <property name="length">00:01:07.520</property>
+  <property name="eof">pause</property>
+  <property name="resource">ford.webp</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="format">1</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:control_uuid">{2ffbfc52-32c1-4658-a814-26a9178237b2}</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">374298</property>
+  <property name="kdenlive:monitorPosition">1509</property>
+  <property name="kdenlive:clipname">ford.webp</property>
+  <property name="kdenlive:originalurl">ford.webp</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:file_hash">981d020aff274e7918b5faddfca1af58</property>
  </producer>
  <playlist id="playlist14">
   <entry in="00:00:00.000" out="00:00:19.920" producer="producer1">
-   <property name="kdenlive:id">5</property>
-   <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter15" out="00:00:05.080">
+   <property name="kdenlive:id">3</property>
+   <filter id="filter18" out="00:00:05.080">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -338,7 +441,7 @@
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter16">
+   <filter id="filter19">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -350,7 +453,7 @@
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter17" in="00:00:14.920" out="00:00:19.920">
+   <filter id="filter20" in="00:00:14.920" out="00:00:19.920">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -360,10 +463,9 @@
     <property name="disable">0</property>
    </filter>
   </entry>
-  <entry in="00:00:00.000" out="00:00:30.160" producer="producer3">
-   <property name="kdenlive:id">8</property>
-   <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter18" out="00:00:05.000">
+  <entry in="00:00:00.000" out="00:00:30.160" producer="producer4">
+   <property name="kdenlive:id">6</property>
+   <filter id="filter21" out="00:00:05.000">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -372,7 +474,7 @@
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter19">
+   <filter id="filter22">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -384,7 +486,7 @@
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter20" in="00:00:25.160" out="00:00:30.160">
+   <filter id="filter23" in="00:00:25.160" out="00:00:30.160">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -394,25 +496,59 @@
     <property name="disable">0</property>
    </filter>
   </entry>
+  <entry in="00:00:00.000" out="00:01:00.320" producer="producer5">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter24" out="00:00:05.000">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">0=0;-1=1</property>
+    <property name="kdenlive:collapsed">1</property>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="filter25">
+    <property name="background">colour:0</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="transition.rect">00:00:00.000=0 0 960 540</property>
+    <property name="transition.distort">0</property>
+    <property name="use_normalised">0</property>
+    <property name="producer.resource">0x00000000</property>
+    <property name="transition.repeat_off">1</property>
+    <property name="transition.mirror_off">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter26" in="00:00:55.120" out="00:01:00.320">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:05.200=0</property>
+    <property name="kdenlive:collapsed">1</property>
+    <property name="disable">0</property>
+   </filter>
+  </entry>
  </playlist>
  <playlist id="playlist15"/>
- <tractor id="tractor7" in="00:00:00.000" out="00:00:50.120">
+ <tractor id="tractor7" in="00:00:00.000" out="00:01:50.480">
   <property name="kdenlive:trackheight">110</property>
   <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist14"/>
   <track hide="audio" producer="playlist15"/>
  </tractor>
- <tractor id="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:00:50.120">
-  <property name="kdenlive:duration">00:00:50.160</property>
-  <property name="kdenlive:maxduration">1254</property>
+ <tractor id="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:01:50.480">
+  <property name="kdenlive:duration">00:01:50.520</property>
+  <property name="kdenlive:maxduration">2763</property>
   <property name="kdenlive:clipname">Sequence 3</property>
   <property name="kdenlive:description"/>
   <property name="kdenlive:uuid">{18b3650c-9169-4902-bd10-3d17086243c4}</property>
   <property name="kdenlive:producer_type">17</property>
   <property name="kdenlive:control_uuid">{63e23d5e-2b4b-47e5-bf9e-8a1c50643157}</property>
-  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:id">5</property>
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">74dcb7095a65f5e8eaa56c64036bad2e</property>
   <property name="kdenlive:folderid">2</property>
@@ -421,21 +557,20 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{f4b59320-dbd3-41d7-9aa0-9e7efe11012d}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">0</property>
+  <property name="kdenlive:sequenceproperties.position">2762</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
   <property name="kdenlive:sequenceproperties.zoneout">1254</property>
-  <property name="kdenlive:sequenceproperties.zoom">8</property>
+  <property name="kdenlive:sequenceproperties.zoom">10</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
   <property name="kdenlive:sequenceproperties.guides">[
 ]
 </property>
-  <property name="kdenlive:monitorPosition">0</property>
   <track producer="producer2"/>
   <track producer="tractor4"/>
   <track producer="tractor5"/>
@@ -483,21 +618,21 @@
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter21">
+  <filter id="filter27">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter22">
+  <filter id="filter28">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter23">
+  <filter id="filter29">
    <property name="mlt_service">avfilter.fieldorder</property>
    <property name="internal_added">237</property>
    <property name="av.order">tff</property>
@@ -506,6 +641,7 @@
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
   <property name="kdenlive:sequenceFolder">2</property>
+  <property name="kdenlive:docproperties.activetimeline">{18b3650c-9169-4902-bd10-3d17086243c4}</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.binsort">0</property>
   <property name="kdenlive:docproperties.browserurl">C:/Users/nikla/Documents/</property>
@@ -565,6 +701,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">24.08.2</property>
+  <property name="kdenlive:docproperties.opensequences">{646bfb96-8cd0-44d8-afda-f7b01420357e};{18b3650c-9169-4902-bd10-3d17086243c4}</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080i_50</property>
@@ -583,16 +720,16 @@
   <property name="kdenlive:extraBins">project_bin:-1:0</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:documentnotesversion">2</property>
-  <property name="kdenlive:docproperties.opensequences">{646bfb96-8cd0-44d8-afda-f7b01420357e};{18b3650c-9169-4902-bd10-3d17086243c4}</property>
-  <property name="kdenlive:docproperties.activetimeline">{18b3650c-9169-4902-bd10-3d17086243c4}</property>
   <property name="xml_retain">1</property>
-  <entry in="00:00:00.000" out="00:00:00.000" producer="{646bfb96-8cd0-44d8-afda-f7b01420357e}"/>
-  <entry in="00:00:00.000" out="00:00:00.000" producer="{18b3650c-9169-4902-bd10-3d17086243c4}"/>
-  <entry in="00:00:00.000" out="00:00:31.880" producer="producer3"/>
+  <entry in="00:00:00.000" out="00:00:20.040" producer="{646bfb96-8cd0-44d8-afda-f7b01420357e}"/>
+  <entry in="00:00:00.000" out="00:01:50.480" producer="{18b3650c-9169-4902-bd10-3d17086243c4}"/>
   <entry in="00:00:00.000" out="00:00:55.680" producer="producer1"/>
+  <entry in="00:00:00.000" out="00:00:31.880" producer="producer4"/>
+  <entry in="00:00:00.000" out="00:01:07.480" producer="producer5"/>
+  <entry in="00:00:00.000" out="00:01:00.360" producer="producer3"/>
  </playlist>
- <tractor id="tractor8" in="00:00:00.000" out="00:00:50.120">
+ <tractor id="tractor8" in="00:00:00.000" out="00:01:50.480">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:00:50.120" producer="{18b3650c-9169-4902-bd10-3d17086243c4}"/>
+  <track in="00:00:00.000" out="00:01:50.480" producer="{18b3650c-9169-4902-bd10-3d17086243c4}"/>
  </tractor>
 </mlt>
