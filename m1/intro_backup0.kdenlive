@@ -5,10 +5,6 @@
   <property name="length">00:00:55.720</property>
   <property name="eof">pause</property>
   <property name="resource">scene1.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -27,6 +23,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -57,10 +57,6 @@
   <property name="length">00:00:31.920</property>
   <property name="eof">pause</property>
   <property name="resource">scene2.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -79,6 +75,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -108,10 +108,6 @@
   <property name="length">00:01:07.520</property>
   <property name="eof">pause</property>
   <property name="resource">ford.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -130,6 +126,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -159,10 +159,6 @@
   <property name="length">00:01:00.400</property>
   <property name="eof">pause</property>
   <property name="resource">wso.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -181,6 +177,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -210,10 +210,6 @@
   <property name="length">1648</property>
   <property name="eof">pause</property>
   <property name="resource">papabear.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -232,6 +228,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -258,10 +258,6 @@
   <property name="length">771</property>
   <property name="eof">pause</property>
   <property name="resource">raptor.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -280,6 +276,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -306,10 +306,6 @@
   <property name="length">742</property>
   <property name="eof">pause</property>
   <property name="resource">scene4.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -328,6 +324,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -354,10 +354,6 @@
   <property name="length">953</property>
   <property name="eof">pause</property>
   <property name="resource">scene 5.webp</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -376,6 +372,10 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="ttl">25</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.width">1024</property>
@@ -397,216 +397,6 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
  </producer>
- <chain id="chain11" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">ghost-hawk-dialog.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">13</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">354674</property>
-  <property name="kdenlive:file_hash">40bda8fd31d71eb087abc5b2ba387ad8</property>
- </chain>
- <chain id="chain12" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">papa-bear-dialog.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">14</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">392172</property>
-  <property name="kdenlive:file_hash">908e4d3d36e25f095715751ee64f2bf0</property>
- </chain>
- <chain id="chain13" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">colonel-dialog.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">15</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">265378</property>
-  <property name="kdenlive:file_hash">5c48f0c6ec113375ca8124bd615f0360</property>
- </chain>
- <chain id="chain14" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">scene7.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">16</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">271010</property>
-  <property name="kdenlive:file_hash">f3e813ee777e4cb11a471bc8e24d1e8a</property>
- </chain>
- <chain id="chain15" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">224878</property>
-  <property name="kdenlive:file_hash">73d39fa66b047599719c8fa69853da5f</property>
- </chain>
  <producer id="producer0" in="00:00:00.000" out="00:25:00.800">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
@@ -651,7 +441,7 @@
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
  </tractor>
  <playlist id="playlist2">
@@ -688,7 +478,7 @@
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
  </tractor>
  <playlist id="playlist4">
@@ -724,13 +514,13 @@
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
  </tractor>
  <chain id="chain0" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -738,7 +528,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:id">18</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -806,9 +596,9 @@
   </entry>
   <blank length="00:02:59.680"/>
   <entry producer="chain0" in="00:00:30.040" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">18</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter3" in="00:00:35.280" out="00:00:40.600">
+   <filter id="filter3" in="00:00:35.320" out="00:00:40.640">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -845,7 +635,7 @@
  <chain id="chain1" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">ghost-hawk-dialog.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/ghost-hawk-dialog.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -853,7 +643,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:id">14</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -889,51 +679,7 @@
  <chain id="chain2" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene7.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">16</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">0</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
- </chain>
- <chain id="chain3" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene7.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -970,7 +716,51 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </chain>
+ <chain id="chain3" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">18</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
@@ -1139,7 +929,8 @@
    </filter>
   </entry>
   <entry producer="chain1" in="00:00:00.000" out="00:00:50.000">
-   <property name="kdenlive:id">13</property>
+   <property name="kdenlive:id">14</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter6">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
@@ -1152,7 +943,7 @@
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter7" in="00:00:44.760" out="00:00:50.000">
+   <filter id="filter7" in="00:00:44.800" out="00:00:50.040">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1162,7 +953,8 @@
    </filter>
   </entry>
   <entry producer="chain2" in="00:00:00.000" out="00:00:39.760">
-   <property name="kdenlive:id">16</property>
+   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter8">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
@@ -1193,7 +985,7 @@
    </filter>
   </entry>
   <entry producer="chain3" in="00:00:00.000" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">18</property>
    <property name="kdenlive:activeeffect">1</property>
    <filter id="filter16" in="00:00:35.280" out="00:00:40.600">
     <property name="start">1</property>
@@ -1240,7 +1032,7 @@
  <chain id="chain4" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -1248,7 +1040,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:id">18</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -1277,16 +1069,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist10">
   <blank length="00:04:25.200"/>
   <entry producer="chain4" in="00:00:05.040" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">18</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter37" in="00:00:35.280" out="00:00:40.600">
+   <filter id="filter37" in="00:00:35.320" out="00:00:40.640">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1320,19 +1112,16 @@
  </playlist>
  <playlist id="playlist11"/>
  <tractor id="tractor5" in="00:00:00.000" out="00:05:00.760">
+  <property name="kdenlive:track_name">V7</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
-  <property name="kdenlive:track_name">V7</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist10"/>
   <track hide="audio" producer="playlist11"/>
  </tractor>
  <chain id="chain5" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -1340,7 +1129,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:id">18</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -1369,16 +1158,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist12">
   <blank length="00:04:30.120"/>
   <entry producer="chain5" in="00:00:09.960" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">18</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter40" in="00:00:35.280" out="00:00:40.600">
+   <filter id="filter40" in="00:00:35.320" out="00:00:40.640">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1412,19 +1201,16 @@
  </playlist>
  <playlist id="playlist13"/>
  <tractor id="tractor6" in="00:00:00.000" out="00:05:00.760">
+  <property name="kdenlive:track_name">V6</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
-  <property name="kdenlive:track_name">V6</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist12"/>
   <track hide="audio" producer="playlist13"/>
  </tractor>
  <chain id="chain6" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -1432,7 +1218,7 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:id">18</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -1461,16 +1247,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist14">
   <blank length="00:04:35.320"/>
   <entry producer="chain6" in="00:00:15.160" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">18</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter43" in="00:00:35.280" out="00:00:40.600">
+   <filter id="filter43" in="00:00:35.320" out="00:00:40.640">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1504,219 +1290,16 @@
  </playlist>
  <playlist id="playlist15"/>
  <tractor id="tractor7" in="00:00:00.000" out="00:05:00.760">
+  <property name="kdenlive:track_name">V5</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
-  <property name="kdenlive:track_name">V5</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist14"/>
   <track hide="audio" producer="playlist15"/>
  </tractor>
  <chain id="chain7" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">papa-bear-dialog.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">14</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">0</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
- </chain>
- <chain id="chain8" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">2</property>
-  <property name="kdenlive:file_size">0</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">25</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1024</property>
-  <property name="meta.media.0.codec.height">1024</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">webp</property>
-  <property name="meta.media.0.codec.long_name">WebP image</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1024</property>
-  <property name="meta.media.height">1024</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
- </chain>
- <playlist id="playlist16">
-  <blank length="00:01:19.680"/>
-  <entry producer="producer8" in="00:00:00.000" out="00:00:30.800">
-   <property name="kdenlive:id">9</property>
-   <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter46" out="00:00:05.000">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:05.000=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter47" in="00:00:25.800" out="00:00:30.800">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.000=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter48">
-    <property name="background">colour:0</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="transition.rect">00:00:00.000=961 537 960 540</property>
-    <property name="transition.distort">0</property>
-    <property name="use_normalised">0</property>
-    <property name="producer.resource">0x00000000</property>
-    <property name="transition.repeat_off">1</property>
-    <property name="transition.mirror_off">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <blank length="00:01:14.680"/>
-  <entry producer="chain7" in="00:00:00.000" out="00:00:35.120">
-   <property name="kdenlive:id">14</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter49">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:00.000=0</property>
-    <property name="Clip right">00:00:00.000=0</property>
-    <property name="Clip top">00:00:00.000=0.185185</property>
-    <property name="Clip bottom">00:00:00.000=0.185185</property>
-    <property name="Scale X">00:00:00.000=0.375</property>
-    <property name="Scale Y">00:00:00.000=0.375</property>
-    <property name="Tilt X">00:00:00.000=0.5</property>
-    <property name="Tilt Y">00:00:00.000=0.5</property>
-    <property name="kdenlive:collapsed">1</property>
-   </filter>
-   <filter id="filter50">
-    <property name="background">colour:0</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="transition.rect">00:00:00.000=1500 -127 1920 1080;00:00:10.120=698 -127 1920 1080</property>
-    <property name="transition.distort">0</property>
-    <property name="use_normalised">0</property>
-    <property name="producer.resource">0x00000000</property>
-    <property name="transition.repeat_off">1</property>
-    <property name="transition.mirror_off">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter51" in="00:00:30.000" out="00:00:35.120">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.120=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <blank length="00:00:59.640"/>
-  <entry producer="chain8" in="00:00:19.840" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter52" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter53">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:19.840=0</property>
-    <property name="Clip right">00:00:19.840=0</property>
-    <property name="Clip top">00:00:19.840=0</property>
-    <property name="Clip bottom">00:00:19.840=0</property>
-    <property name="Scale X">00:00:19.840=0.5</property>
-    <property name="Scale Y">00:00:19.840=0.5</property>
-    <property name="Tilt X">00:00:19.840=0.5</property>
-    <property name="Tilt Y">00:00:19.840=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
- </playlist>
- <playlist id="playlist17"/>
- <tractor id="tractor8" in="00:00:00.000" out="00:05:00.760">
-  <property name="kdenlive:trackheight">110</property>
-  <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
-  <property name="kdenlive:track_name">V3</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist16"/>
-  <track hide="audio" producer="playlist17"/>
- </tractor>
- <chain id="chain9" out="00:00:59.960">
-  <property name="length">1500</property>
-  <property name="eof">pause</property>
-  <property name="resource">colonel-dialog.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/papa-bear-dialog.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -1757,10 +1340,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
- <chain id="chain10" out="00:00:59.960">
+ <chain id="chain8" out="00:00:59.960">
   <property name="length">1500</property>
   <property name="eof">pause</property>
-  <property name="resource">scene8.webp</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="format">3</property>
@@ -1768,7 +1351,207 @@
   <property name="video_index">0</property>
   <property name="vstream">0</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:id">18</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </chain>
+ <playlist id="playlist16">
+  <blank length="00:01:19.680"/>
+  <entry producer="producer8" in="00:00:00.000" out="00:00:30.800">
+   <property name="kdenlive:id">9</property>
+   <property name="kdenlive:activeeffect">2</property>
+   <filter id="filter46" out="00:00:05.000">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:05.000=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter47" in="00:00:25.800" out="00:00:30.800">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:05.000=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter48">
+    <property name="background">colour:0</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="transition.rect">00:00:00.000=961 537 960 540</property>
+    <property name="transition.distort">0</property>
+    <property name="use_normalised">0</property>
+    <property name="producer.resource">0x00000000</property>
+    <property name="transition.repeat_off">1</property>
+    <property name="transition.mirror_off">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:01:14.680"/>
+  <entry producer="chain7" in="00:00:00.000" out="00:00:35.120">
+   <property name="kdenlive:id">15</property>
+   <property name="kdenlive:activeeffect">1</property>
+   <filter id="filter49">
+    <property name="version">0.1</property>
+    <property name="mlt_service">frei0r.scale0tilt</property>
+    <property name="kdenlive_id">frei0r.scale0tilt</property>
+    <property name="Clip left">00:00:00.000=0</property>
+    <property name="Clip right">00:00:00.000=0</property>
+    <property name="Clip top">00:00:00.000=0.185185</property>
+    <property name="Clip bottom">00:00:00.000=0.185185</property>
+    <property name="Scale X">00:00:00.000=0.375</property>
+    <property name="Scale Y">00:00:00.000=0.375</property>
+    <property name="Tilt X">00:00:00.000=0.5</property>
+    <property name="Tilt Y">00:00:00.000=0.5</property>
+    <property name="kdenlive:collapsed">1</property>
+   </filter>
+   <filter id="filter50">
+    <property name="background">colour:0</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="transition.rect">00:00:00.000=1500 -127 1920 1080;00:00:10.120=698 -127 1920 1080</property>
+    <property name="transition.distort">0</property>
+    <property name="use_normalised">0</property>
+    <property name="producer.resource">0x00000000</property>
+    <property name="transition.repeat_off">1</property>
+    <property name="transition.mirror_off">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter51" in="00:00:30.040" out="00:00:35.160">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:05.120=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:59.640"/>
+  <entry producer="chain8" in="00:00:19.840" out="00:00:40.600">
+   <property name="kdenlive:id">18</property>
+   <property name="kdenlive:activeeffect">1</property>
+   <filter id="filter52" in="00:00:35.320" out="00:00:40.640">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter53">
+    <property name="version">0.1</property>
+    <property name="mlt_service">frei0r.scale0tilt</property>
+    <property name="kdenlive_id">frei0r.scale0tilt</property>
+    <property name="Clip left">00:00:19.840=0</property>
+    <property name="Clip right">00:00:19.840=0</property>
+    <property name="Clip top">00:00:19.840=0</property>
+    <property name="Clip bottom">00:00:19.840=0</property>
+    <property name="Scale X">00:00:19.840=0.5</property>
+    <property name="Scale Y">00:00:19.840=0.5</property>
+    <property name="Tilt X">00:00:19.840=0.5</property>
+    <property name="Tilt Y">00:00:19.840=0.5</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist17"/>
+ <tractor id="tractor8" in="00:00:00.000" out="00:05:00.760">
+  <property name="kdenlive:trackheight">110</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:track_name">V3</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist16"/>
+  <track hide="audio" producer="playlist17"/>
+ </tractor>
+ <chain id="chain9" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/colonel-dialog.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">16</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </chain>
+ <chain id="chain10" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">18</property>
   <property name="mute_on_pause">0</property>
   <property name="kdenlive:clip_type">2</property>
   <property name="kdenlive:file_size">0</property>
@@ -1837,7 +1620,7 @@
   </entry>
   <blank length="00:01:29.640"/>
   <entry producer="chain9" in="00:00:00.000" out="00:00:20.160">
-   <property name="kdenlive:id">15</property>
+   <property name="kdenlive:id">16</property>
    <property name="kdenlive:activeeffect">1</property>
    <filter id="filter57">
     <property name="version">0.1</property>
@@ -1865,7 +1648,7 @@
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter59" in="00:00:14.840" out="00:00:20.160">
+   <filter id="filter59" in="00:00:14.880" out="00:00:20.200">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1876,8 +1659,8 @@
   </entry>
   <blank length="00:01:05.000"/>
   <entry producer="chain10" in="00:00:25.200" out="00:00:40.600">
-   <property name="kdenlive:id">17</property>
-   <filter id="filter60" in="00:00:35.280" out="00:00:40.600">
+   <property name="kdenlive:id">18</property>
+   <filter id="filter60" in="00:00:35.320" out="00:00:40.640">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1898,7 +1681,7 @@
   <track hide="audio" producer="playlist18"/>
   <track hide="audio" producer="playlist19"/>
  </tractor>
- <tractor id="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:05:00.760">
+ <tractor id="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:25:00.800">
   <property name="kdenlive:duration">00:05:00:20</property>
   <property name="kdenlive:maxduration">7520</property>
   <property name="kdenlive:clipname">Sequence 3</property>
@@ -1976,8 +1759,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition4">
    <property name="a_track">0</property>
@@ -1986,8 +1770,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition5">
    <property name="a_track">0</property>
@@ -1996,8 +1781,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition6">
    <property name="a_track">0</property>
@@ -2006,8 +1792,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition7">
    <property name="a_track">0</property>
@@ -2016,8 +1803,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition8">
    <property name="a_track">0</property>
@@ -2026,8 +1814,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <transition id="transition9">
    <property name="a_track">0</property>
@@ -2036,8 +1825,9 @@
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
    <property name="mlt_service">qtblend</property>
-   <property name="always_active">1</property>
+   <property name="kdenlive_id">qtblend</property>
    <property name="internal_added">237</property>
+   <property name="always_active">1</property>
   </transition>
   <filter id="filter61">
    <property name="window">75</property>
@@ -2102,7 +1892,7 @@
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
-   <property name="disable">1</property>
+   <property name="disable">0</property>
   </filter>
  </tractor>
  <playlist id="playlist22">
@@ -2138,7 +1928,7 @@
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
-   <property name="disable">1</property>
+   <property name="disable">0</property>
   </filter>
  </tractor>
  <playlist id="playlist24"/>
@@ -2317,6 +2107,211 @@
    <property name="av.order">tff</property>
   </filter>
  </tractor>
+ <chain id="chain11" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/ghost-hawk-dialog.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">14</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+ </chain>
+ <chain id="chain12" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/papa-bear-dialog.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">15</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+ </chain>
+ <chain id="chain13" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/colonel-dialog.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">16</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+ </chain>
+ <chain id="chain14" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene7.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">17</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+ </chain>
+ <chain id="chain15" out="00:00:59.960">
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">qimage:/home/furmountain/repos/battle-of-alturia/m1/scene8.webp</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1024</property>
+  <property name="meta.media.0.codec.height">1024</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">webp</property>
+  <property name="meta.media.0.codec.long_name">WebP image</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1024</property>
+  <property name="meta.media.height">1024</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">18</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:file_size">0</property>
+ </chain>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
   <property name="kdenlive:sequenceFolder">2</property>
@@ -2407,16 +2402,16 @@
   <entry producer="producer9" in="00:00:00.000" out="00:00:30.800"/>
   <entry producer="producer6" in="00:00:00.000" out="00:00:29.640"/>
   <entry producer="producer7" in="00:00:00.000" out="00:00:38.080"/>
+  <entry producer="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:02:50.280"/>
+  <entry producer="{646bfb96-8cd0-44d8-afda-f7b01420357e}" in="00:00:00.000" out="00:20:20.080"/>
   <entry producer="chain11" in="00:00:00.000" out="00:00:59.960"/>
   <entry producer="chain12" in="00:00:00.000" out="00:00:59.960"/>
   <entry producer="chain13" in="00:00:00.000" out="00:00:59.960"/>
   <entry producer="chain14" in="00:00:00.000" out="00:00:59.960"/>
   <entry producer="chain15" in="00:00:00.000" out="00:00:59.960"/>
-  <entry producer="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:05:00.760"/>
-  <entry producer="{646bfb96-8cd0-44d8-afda-f7b01420357e}" in="00:00:00.000" out="00:20:20.080"/>
  </playlist>
- <tractor id="tractor14" in="00:00:00.000" out="00:05:00.760">
+ <tractor id="tractor14" in="00:00:00.000" out="00:05:00.800">
   <property name="kdenlive:projectTractor">1</property>
-  <track producer="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:05:00.760"/>
+  <track producer="{18b3650c-9169-4902-bd10-3d17086243c4}" in="00:00:00.000" out="00:05:00.800"/>
  </tractor>
 </mlt>
