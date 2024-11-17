@@ -767,7 +767,7 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
@@ -804,32 +804,9 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:02:59.680"/>
-  <entry producer="chain0" in="00:00:30.040" out="00:00:40.600">
+  <blank length="00:02:59.800"/>
+  <entry producer="chain0" in="00:00:00.000" out="00:00:10.440">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter3" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter4">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:30.040=0</property>
-    <property name="Clip right">00:00:30.040=0</property>
-    <property name="Clip top">00:00:30.040=0</property>
-    <property name="Clip bottom">00:00:30.040=0</property>
-    <property name="Scale X">00:00:30.040=0.5</property>
-    <property name="Scale Y">00:00:30.040=0.5</property>
-    <property name="Tilt X">00:00:30.040=0.5</property>
-    <property name="Tilt Y">00:00:30.040=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist7"/>
@@ -970,7 +947,7 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
@@ -1277,45 +1254,14 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist10">
-  <blank length="00:04:25.200"/>
-  <entry producer="chain4" in="00:00:05.040" out="00:00:40.600">
+  <blank length="00:04:25.280"/>
+  <entry producer="chain4" in="00:00:00.000" out="00:00:35.480">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter37" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter38">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:05.040=0.406771</property>
-    <property name="Clip right">00:00:05.040=0.366146</property>
-    <property name="Clip top">00:00:05.040=0.327778</property>
-    <property name="Clip bottom">00:00:05.040=0.331481</property>
-    <property name="Scale X">00:00:05.040=0.5</property>
-    <property name="Scale Y">00:00:05.040=0.5</property>
-    <property name="Tilt X">00:00:05.040=0.5</property>
-    <property name="Tilt Y">00:00:05.040=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter39" in="00:00:05.040" out="00:00:08.040">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:03.000=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist11"/>
@@ -1369,45 +1315,14 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist12">
-  <blank length="00:04:30.120"/>
-  <entry producer="chain5" in="00:00:09.960" out="00:00:40.600">
+  <blank length="00:04:30.200"/>
+  <entry producer="chain5" in="00:00:00.000" out="00:00:30.560">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter40" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter41">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:09.960=0</property>
-    <property name="Clip right">00:00:09.960=0.577604</property>
-    <property name="Clip top">00:00:09.960=0.669444</property>
-    <property name="Clip bottom">00:00:09.960=0</property>
-    <property name="Scale X">00:00:09.960=0.5</property>
-    <property name="Scale Y">00:00:09.960=0.5</property>
-    <property name="Tilt X">00:00:09.960=0.5</property>
-    <property name="Tilt Y">00:00:09.960=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter42" in="00:00:09.960" out="00:00:12.960">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:03.000=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist13"/>
@@ -1461,45 +1376,14 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
  <playlist id="playlist14">
   <blank length="00:04:35.320"/>
-  <entry producer="chain6" in="00:00:15.160" out="00:00:40.600">
+  <entry producer="chain6" in="00:00:00.000" out="00:00:25.440">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter43" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter44">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:15.160=0</property>
-    <property name="Clip right">00:00:15.160=0</property>
-    <property name="Clip top">00:00:15.160=0</property>
-    <property name="Clip bottom">00:00:15.160=0.669444</property>
-    <property name="Scale X">00:00:15.160=0.5</property>
-    <property name="Scale Y">00:00:15.160=0.5</property>
-    <property name="Tilt X">00:00:15.160=0.5</property>
-    <property name="Tilt Y">00:00:15.160=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter45" in="00:00:15.160" out="00:00:18.160">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:03.000=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist15"/>
@@ -1597,7 +1481,7 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="xml">was here</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
@@ -1675,31 +1559,8 @@
    </filter>
   </entry>
   <blank length="00:00:59.640"/>
-  <entry producer="chain8" in="00:00:19.840" out="00:00:40.600">
+  <entry producer="chain8" in="00:00:00.000" out="00:00:20.760">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter52" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter53">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.scale0tilt</property>
-    <property name="kdenlive_id">frei0r.scale0tilt</property>
-    <property name="Clip left">00:00:19.840=0</property>
-    <property name="Clip right">00:00:19.840=0</property>
-    <property name="Clip top">00:00:19.840=0</property>
-    <property name="Clip bottom">00:00:19.840=0</property>
-    <property name="Scale X">00:00:19.840=0.5</property>
-    <property name="Scale Y">00:00:19.840=0.5</property>
-    <property name="Tilt X">00:00:19.840=0.5</property>
-    <property name="Tilt Y">00:00:19.840=0.5</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist17"/>
@@ -1874,17 +1735,9 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:01:05.000"/>
-  <entry producer="chain10" in="00:00:25.200" out="00:00:40.600">
+  <blank length="00:01:04.720"/>
+  <entry producer="chain10" in="00:00:00.000" out="00:00:15.680">
    <property name="kdenlive:id">17</property>
-   <filter id="filter60" in="00:00:35.280" out="00:00:40.600">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:05.320=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
   </entry>
  </playlist>
  <playlist id="playlist19"/>
@@ -1909,13 +1762,13 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">74dcb7095a65f5e8eaa56c64036bad2e</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">7</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{f4b59320-dbd3-41d7-9aa0-9e7efe11012d}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">7034</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">2489</property>
+  <property name="kdenlive:sequenceproperties.position">7294</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">2718</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">10</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
@@ -2098,7 +1951,7 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter66">
+  <filter id="filter3">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
@@ -2134,7 +1987,7 @@
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter69">
+  <filter id="filter4">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
@@ -2237,7 +2090,7 @@
   <property name="kdenlive:file_hash">69d95e2d9dd01c9dbcfcb1ff705676ee</property>
   <property name="kdenlive:folderid">2</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
-  <property name="kdenlive:sequenceproperties.position">7034</property>
+  <property name="kdenlive:sequenceproperties.position">7294</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
