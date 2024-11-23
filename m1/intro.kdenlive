@@ -1551,7 +1551,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:48.120"/>
+  <blank length="00:00:08.320"/>
   <entry producer="chain7" in="00:00:00.000" out="00:00:10.920">
    <property name="kdenlive:id">27</property>
    <filter id="filter13">
@@ -1565,7 +1565,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:19.920"/>
+  <blank length="00:00:59.720"/>
   <entry producer="chain8" in="00:00:00.000" out="00:00:05.360">
    <property name="kdenlive:id">28</property>
    <filter id="filter14">
@@ -2299,14 +2299,13 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:39.160"/>
-  <entry producer="producer7" in="00:00:00.000" out="00:00:30.080">
+  <entry producer="producer7" in="00:00:00.000" out="00:00:19.520">
    <property name="kdenlive:id">12</property>
    <filter id="filter48">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
-    <property name="transition.rect">00:00:00.000=0 0 1920 1080;00:00:30.080=-975 -798 3840 2160</property>
+    <property name="transition.rect">00:00:00.000=0 0 1920 1080;00:00:19.520=-975 -798 3840 2160</property>
     <property name="transition.distort">0</property>
     <property name="use_normalised">0</property>
     <property name="producer.resource">0x00000000</property>
@@ -2320,15 +2319,18 @@
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:03.000=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter50" in="00:00:27.080" out="00:00:30.080">
+   <filter id="filter50" in="00:00:16.560" out="00:00:19.560">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:03.000=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <blank length="00:00:49.720"/>
   <entry producer="chain26" in="00:00:00.000" out="00:00:50.000">
    <property name="kdenlive:id">13</property>
    <filter id="filter51">
@@ -3138,13 +3140,13 @@
   <property name="kdenlive:clip_type">0</property>
   <property name="kdenlive:file_hash">74dcb7095a65f5e8eaa56c64036bad2e</property>
   <property name="kdenlive:folderid">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">4</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
   <property name="kdenlive:sequenceproperties.documentuuid">{f4b59320-dbd3-41d7-9aa0-9e7efe11012d}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">2493</property>
-  <property name="kdenlive:sequenceproperties.scrollPos">1976</property>
+  <property name="kdenlive:sequenceproperties.position">3079</property>
+  <property name="kdenlive:sequenceproperties.scrollPos">2729</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">10</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
@@ -3466,7 +3468,7 @@
   <property name="kdenlive:file_hash">69d95e2d9dd01c9dbcfcb1ff705676ee</property>
   <property name="kdenlive:folderid">2</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
-  <property name="kdenlive:sequenceproperties.position">2493</property>
+  <property name="kdenlive:sequenceproperties.position">3079</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
