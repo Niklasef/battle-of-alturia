@@ -2,6 +2,8 @@ Campaigns
 
 # Ignore all .miz files
 *.miz
+*.mp4
+
 
 # But don't ignore specific .miz files
 !m1.miz
